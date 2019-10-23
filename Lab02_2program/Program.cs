@@ -11,7 +11,7 @@ namespace Lab02_2program
                 Console.Clear();
                 Console.WriteLine("Write number of terms");
                 int denominator = 1;
-                int num_terms = Int32.Parse(Console.ReadLine());
+                uint num_terms = UInt32.Parse(Console.ReadLine());
                 double Pi_4 = 0.0;
                 for (int i = 0; i < num_terms; i++)
                 {
